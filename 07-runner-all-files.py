@@ -7,7 +7,7 @@ import random
 test_files = sorted(glob('./data/test_set/log_input_*.csv.gz'))
 test_files = [x[-28:] for x in test_files]
 
-commands_to_run = ['/home/sai/.conda/envs/myenv/bin/python 76-03-process-test-file.py {} {}'.format(x, y)
+commands_to_run = ['/home/sai/.conda/envs/myenv/bin/python 07-process-test-file.py {} {}'.format(x, y)
                    for x in test_files
                    for y in range(10, 21)]
 random.shuffle(commands_to_run)
