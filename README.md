@@ -1,5 +1,7 @@
 # WSDM Cup 2019 - Spotify - Sequential Skip Prediction Challenge - 7th place solution
 
+You can find a report about my solution [here](workshop-paper-source/paper.pdf)
+
 To know more about the challenge, refer the following links:
 - https://www.crowdai.org/challenges/spotify-sequential-skip-prediction-challenge
 - http://www.wsdm-conference.org/2019/wsdm-cup-2019.php
